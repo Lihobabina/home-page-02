@@ -1,0 +1,74 @@
+.your-team{
+  @include display-flex-center;
+flex-direction: column;
+width: 375px;
+height: 654px;
+margin-top: 50px;
+.text{
+    @include display-flex-center; 
+flex-direction: column;
+width: 345px;
+height: 233px;
+h1{
+    @include headers; 
+width: 225px;
+height: 38px;
+margin-bottom: 15px;
+span{
+    color: $color-primary;
+}
+}
+p{
+    @include description;
+    width: 345px;
+height: 110px;
+text-align: center;
+margin-bottom: 30px;
+}
+button {
+    @include button;
+}
+}
+.cards{
+    height: 343px;
+width: 345px;
+background: #C4C4C4;
+margin-top: 40px;
+@include display-flex-center; 
+flex-direction: column;
+position: relative;
+margin-bottom: 30px;
+h1{
+    font-weight: 600;
+font-size: 28px;
+line-height: 38px;
+@include nunito-normal;
+color: $color-black;
+}
+.tag{
+    @include display-flex-center;  
+    flex-direction: column;
+padding: 20px 27px;
+background: linear-gradient(6.68deg, #00730C 4.95%, rgba(251, 246, 238, 0) 264.79%);
+border-radius: 5px;
+height: 62px;
+width: 345px;
+position: absolute;
+top: 82.03%;
+h3{
+    @include nunito-normal;
+    font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+color: $bg-color1;
+}
+h2{
+    @include description; 
+    color: $bg-color1;
+}
+}
+}
+.slider{
+    margin-bottom: 50px;
+}
+}

@@ -1,0 +1,85 @@
+.why-choose-us{
+width: 375px;
+height: 684px;
+background-image: url(icons/BG.svg);
+display: flex;
+justify-content: center;
+align-items: center;
+.content{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 345px;
+height: 584px;
+    .image{
+        height: 217px;
+    width: 345px;
+    background-image: url(icons/grey.svg);
+    margin-bottom: 30px;
+    }
+    .text{
+        width: 345px;
+height: 163px;
+@include display-flex-center;
+flex-direction: column;
+h1{
+    @include headers;
+    width: 210px;
+height: 38px;
+color: $bg-color1;
+margin-bottom: 15px;
+}
+p{
+    @include description;
+    color: $bg-color1;
+width: 345px;
+height: 110px;
+text-align: center;
+}
+    }
+    .tag{
+        margin-top: 40px;
+        width: 345px;
+height: 64px;
+@include display-flex-between;
+flex-direction: column;
+.row1{
+    width: 345px;
+height: 22px;
+@include display-flex-between;
+    align-self: flex-start;
+}
+.row2{
+    width: 345px;
+height: 22px;
+    align-self: flex-end;
+    @include display-flex-between;
+}
+.block{
+    @include display-flex-between;
+width: 158px;
+height: 22px;
+@include content;
+color: $bg-color1;
+.img{
+    height: 20px;
+width: 20px;
+border-radius: 50%;
+background-color: $bg-color1;
+background-image: url(icons/tick.svg);
+background-repeat: no-repeat;
+background-position: center;
+}
+}
+}
+.button-box{
+    @include display-flex-center;
+    margin-top: 40px;
+    button{
+       @include button;
+    }
+}
+    }
+    }
+

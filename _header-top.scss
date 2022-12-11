@@ -1,0 +1,23 @@
+.header-top{
+width: 375px;
+height: 55px;
+@include display-flex-center;
+padding: 20px 20px 15px;
+background-color: $bg-color2;
+.row{
+    @include display-flex-between;
+    width: 335px;
+height: 20px;
+.col1{
+    width: 33%;
+    @include display-flex-between;
+}
+.col2{
+    p{
+        @include description;
+        line-height: 16px;
+        color: $bg-color1;
+    }
+}
+}
+}
