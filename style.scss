@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 @import "./variables";
 @import "./header-top";
@@ -14,3 +15,7 @@
 @import "./your-team";
 @import "./clients-saying";
 @import "./asked-questions";
+@media (min-width:1600px){
+    body{
+        width: 1920px;
+    }}

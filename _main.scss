@@ -54,3 +54,60 @@ height: 76px;
 }
 }
 }
+// media
+@media (min-width:1600px){
+    main{
+        margin-top: 100px;
+        width: 1920px;
+height: 963px;
+@include display-flex-center;
+flex-direction: column;
+.text{
+    width: 1136px;
+height: 151px;
+margin-bottom: 50px;
+margin-top: 0;
+h1{
+    @include headers-desktop;
+    width: 437px;
+height: 61px;
+@include display-flex-between;
+margin-bottom: 30px;
+}
+p{
+@include description-desktop;
+width: 1136px;
+height: 60px;
+}
+}
+.cards{  
+width: 1410px;
+height: 762px;
+@include display-flex-between;
+flex-wrap: wrap;
+.block{
+    width: 330px;
+height: 366px;
+@include display-flex-center;
+flex-direction: column;
+margin: 0;
+.content{
+    margin-top: 50px;
+    h1{
+        font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+width: 238px;
+height: 33px;
+    }
+    p{
+@include poppins-description;
+    }
+}
+}
+}
+    }
+}

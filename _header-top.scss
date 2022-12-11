@@ -11,6 +11,9 @@ height: 20px;
 .col1{
     width: 33%;
     @include display-flex-between;
+    p{
+        @include display-none;
+    }
 }
 .col2{
     p{
@@ -21,3 +24,24 @@ height: 20px;
 }
 }
 }
+@media (min-width:1600px){
+.header-top{
+ width: 1920px;
+height: 59px;
+padding: 17px 251px;
+.row{
+    width: 1418px;
+height: 25px;
+.col1{
+    width: 739px;
+height: 25px;
+    p{
+        display: flex;
+        @include description;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+}
+}
+        }
+    }

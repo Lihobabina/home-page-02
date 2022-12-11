@@ -71,3 +71,35 @@ line-height: 20px;
 text-transform: capitalize;
 color: #FFFFFF;
 }
+// 
+@mixin display-none{
+    display: none;
+}
+@mixin display-block{
+    display: block;
+}
+@mixin headers-desktop{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 800;
+font-size: 45px;
+line-height: 61px;
+color: #212529;
+}
+@mixin description-desktop{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+color: #676767;
+}
+@mixin poppins-description{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+}
